@@ -1,0 +1,14 @@
+FACTORY PATTERN:
+Some important points about Factory Design Pattern method are;
+--> We can keep Factory class Singleton or we can keep the method that returns the subclass as static.
+--> Notice that based on the input parameter, different subclass is created and returned.
+
+Factory design pattern provides approach to code for interface rather than implementation.
+Factory pattern removes the instantiation of actual implementation classes from client code. Factory pattern makes our code more robust, less coupled and easy to extend. For example, we can easily change PC class implementation because client program is unaware of this.
+Factory pattern provides abstraction between implementation and client classes through inheritance.
+
+Factory Design Pattern Examples in JDK
+java.util.Calendar, ResourceBundle and NumberFormat getInstance() methods uses Factory pattern.
+valueOf() method in wrapper classes like Boolean, Integer etc.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
